@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta name="title" content="CNPolitics政见编辑考试｜媒体敏感测试｜政见｜微信">
+	<meta name="description" content="CNPolitics政见编辑考试｜媒体敏感测试｜政见｜微信">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">	
+	
+    <title>★CNPolitics政见编辑考试★</title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="jquery.mmenu.all.css" rel="stylesheet" />
+	<style type="text/css">
+body{background:#111302 url("bk2.png") top center !important;background-repeat: repeat-y; background-size:100% auto !important}body .avatar .img-circle{background:#347433 !important}body form .btn{background:#c5e9f7 !important;border:none !important;box-shadow: -2px 2px 1px 1px #000000;}#header h1,#header p{background:none !important}
+    </style>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery.hammer.min.js"></script>
+    <script type="text/javascript" src="jquery.mmenu.min.all.js"></script>
+    <script type="text/javascript" src="sheets.js"></script>
+    <script src="wxm-core.js"></script> 
+    
+</head>
+<body id="test1" class="test1">
+	<div class="wechat-thumb">
+		<img src="fy.jpg" />
+	</div>
+	
+    <div id="content">
+        <div id="header_bar">
+        </div>
+        <!-- E header_bar -->
+	
+			
+        <div class="container">
+            <div id="header" class="text-center">
+				
+				 <div class="container">
+        <div class="text-center header">
+            <hr style="border:0;background-color:#cee6f7;height:4px;"  width="90%">
+            <h1 style="color:#000000; " class="bold">
+                你有潜质<br>
+				成为政见主编吗？
+			</h1>
+            <hr style="border:0;background-color:#cee6f7;height:4px;" width="90%">  
+            </div>
+            
+            <!-- E header -->
+            <div id="bd" class="panel">
+                <div id="panel1" class="panel-body">
+                    <form action="#">
+
+                    <div style="position: relative; top: -35px;height:55px; color:#000000; background:#c8eefa;MARGIN-RIGHT: auto; MARGIN-LEFT: auto; width:50%;" > 
+                         <h2 style = "position:relative;top:50%;translateX(-50%);translateY(-50%)"> 测试说明 </h2>
+                    </div>
+                    
+                    <div >
+                        <label for="" class="sr-only">前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span class="icon1">
+                            <img src="box.png"></span> </a>
+                    </div>
+                    <p style="position: relative; top: -10px;">
+                        本测试共8道题，每一题的选项都是2014-2015年间政见在微信公号上发布的文章标题。
+                        <br>
+                        你的任务是，选择出几个选项中，实际获得的点击量最高的那一篇文章。看看你是否有眼力识别出更“爆款”的那一篇吧！
+                    </p>
+                    <div class="buttons" >
+                        <a href="#result" class="btn btn-lg btn-success" style="background:#c7edfa; width: 50%" onclick="return next(0);">
+                            <strong style="color:#404243;font-size: 22px;">开始测试</strong></a>
+                    </div>
+                    </form>
+           </div>
+           
+
+                 <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display:none;  background:#fbfcf7">
+                    <form style="background:#fbfcf7;" action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div>
+                        <a href="javascript:void(0)"  name="1"><span class="icon2"><img src="box2.png"></span> </a>
+                    </div>
+                    
+                     <h3 style="color:#000;"> 以下哪篇文章获得的点击量更高？ </h3>
+                    
+                   
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            A.一张图读懂中国经济“新常态”</li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            B.热点解读｜卢布危机：俄罗斯经济之踵</li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display:none;  background:#fbfcf7">
+                    <form style="background:#fbfcf7;" action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon2"><img src="box2.png"></span> </a>
+                    </div>
+                    
+                     <h3 style="color:#000;"> 以下哪篇文章获得的点击量更高？ </h3>
+                    
+                         <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.男人天生比女人更有竞争性？看看行为经济学家怎么说！ </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            B.如果男人有月经</li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                 <div id="panel2" class="panel-body js_answer" style="display:none;  background:#fbfcf7">
+                    <form style="background:#fbfcf7;" action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon2"><img src="box2.png"></span> </a>
+                    </div>
+                    
+                     <h3 style="color:#000;"> 以下哪篇文章获得的点击量更高？ </h3>
+                    
+                         <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            A.美国高校怎么教“马克思主义原理”？（内附课程大纲） </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            B.2015美国社会学博士申请总结 </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                  <div id="panel2" class="panel-body js_answer" style="display:none;  background:#fbfcf7">
+                    <form style="background:#fbfcf7;" action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon2"><img src="box2.png"></span> </a>
+                    </div>
+                    
+                     <h3 style="color:#000;"> 以下哪篇文章获得的点击量更高？ </h3>
+                    
+                          <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.恐怖主义、伊斯兰教和身份认同 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            B.穆斯林在日本过得咋样？ </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                  <div id="panel2" class="panel-body js_answer" style="display:none;  background:#fbfcf7">
+                    <form style="background:#fbfcf7;" action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon2"><img src="box2.png"></span> </a>
+                    </div>
+                    
+                     <h3 style="color:#000;"> 以下哪篇文章获得的点击量更高？ </h3>
+                    
+                          <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.清朝政府是任人唯贤还是任人唯亲？ </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            B.中国公务员工资真相与治理难题 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            C.政府官员广开言路的条件 </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <!-- E panel-body -->
+                 <div id="panel2" class="panel-body js_answer" style="display:none;  background:#fbfcf7">
+                    <form style="background:#fbfcf7;" action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon2"><img src="box2.png"></span> </a>
+                    </div>
+                    
+                     <h3 style="color:#000;"> 以下哪篇文章获得的点击量更高？ </h3>
+                    
+                          <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            A.民主就像幸福的婚姻：过了七年之痒，自会益久弥坚 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            B.千禧世代与东亚民主的未来 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            B.民主政府和权威政府分别如何分配自己的注意力 </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display:none;  background:#fbfcf7">
+                    <form style="background:#fbfcf7;" action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon2"><img src="box2.png"></span> </a>
+                    </div>
+                    
+                     <h3 style="color:#000;"> 以下哪篇文章获得的点击量更高？ </h3>
+                    
+                           <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.游戏中的政治 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            B.玩游戏也是正经事：12款政治类游戏推介及玩家测评 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            C.听觉动物的福利：15个你一定爱听的社科思想类博客 </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display:none;  background:#fbfcf7">
+                    <form style="background:#fbfcf7;" action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon2"><img src="box2.png"></span> </a>
+                    </div>
+                    
+                     <h3 style="color:#000;"> 以下哪篇文章获得的点击量更高？ </h3>
+                    
+                             <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.“理性选民”是个神话吗？ </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            B.因为有了经济学，人类才变得理性？ </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            C.离理性太远，离偏见太近：我们为什么排斥移民 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            D.经济学家终于承认：人不总是理性的 </li>
+                    </ul>
+                    </form>
+                </div>
+                
+                <div id="panel2" class="panel-body js_answer" style="display:none;  background:#fbfcf7">
+                    <form id="collector" style="background:#fbfcf7;" action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon2"><img src="box2.png"></span> </a>
+                    </div>
+                    <h3>看答案之前，先填一下基本信息吧 </h3>
+                    <label style="color:#000;"> 性别 </label>
+                    <br>
+                    <select class="styled-select" name="Gender">
+                    	<option value ="男">男</option>
+                    	<option value ="女">女</option>
+                    	<option value ="其他">其他</option>
+					</select>
+					<br>
+                    <label style="color:#000;"> 年龄 </label>
+                    <br>
+                    <select class="styled-select" name="Age">
+                        <option value="50后或更年长">50后或更年长</option>
+                    	<option value ="60后">60后</option>
+                    	<option value ="70后">70后</option>
+                    	<option value="80后">80后</option>
+                    	<option value="90后">90后</option>
+                    	<option value="00后">00后</option>
+					</select>
+					<br>
+                    <label style="color:#000;"> 学院 </label>
+                    <br>
+                    <select class="styled-select" name="Faculty">
+                    	<option value ="政治学">政治学</option>
+                    	<option value ="社会学">社会学</option>
+                    	<option value="经济学">经济学</option>
+                    	<option value="社会传播学">社会传播学</option>
+                    	<option value="人类学">人类学</option>
+                    	<option value="法学">法学</option>
+                    	<option value="文史哲">文史哲</option>
+                    	<option value="理科">理科</option>
+                    	<option value="工科">工科</option>
+                    	<option value="医科">医科</option>
+                    	<option value="其他">其他</option>
+					</select> 
+                    </form>
+                    <button onclick="return toggle(this);" class="result-btn">
+                            查看结果
+                    </button>
+               </div>
+                    
+                  
+                
+                
+                
+            <div id="panel3" class="panel-body js_result" data-id="8" style="display: none;">
+                <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon3"><img src="box3.png"></span> </a>
+                </div>
+                <h1 class="bold">
+                     太棒了，你就是我们要找的人！你的答案全部正确！</h1>
+                <hr>
+                <dl>
+                    <dt>看来你对读者的心理有天生的洞察力，分分钟打造出10万＋的爆款文章。</dt>
+                    <dd>
+                        <p>
+                            考虑到我们碗里来吧！在政见CNPolitics公号（微信号：cnpolitics2011）中回复“编辑”，察看我们的招募启事。</p>
+                    </dd>
+                </dl>
+                <button href="javascript:void(0)"  onclick="$(&#39;#mcover&#39;).show()" class="result-btn">
+                            邀请小伙伴
+                </button>
+                                <br>
+                <div id="copy">
+        			<p class="text-center">
+            			<a href="http://cnpolitics.org" style="color: #000; font-weight: bold;font-size: 15px;">&copy; 政见CNPolitics</a>
+        			</p>
+    			</div> 
+
+            </div>
+            <div id="panel3" class="panel-body js_result" data-id="7" style="display: none;">
+                <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon3"><img src="box3.png"></span> </a>
+                </div>
+                <h1 class="bold">
+                    很不错了！你答对了7题。</h1>
+                <hr>
+                <dl>
+                    <dt>虽然距离成为政见的主编还差那么一点，但你对传播规律和读者心理的洞察还是让我们非常佩服。快分享到朋友圈炫耀一下吧！</dt>
+                    <dd>
+                        <p>
+                            想知道自己哪道题错了，在政见CNPolitics公号（微信号：cnpolitics2011）中回复“答案”即可。</p>
+                    </dd>
+                </dl>
+                <button onclick="location.href=''" class="result-btn">
+                            再玩一次
+                </button>
+                <button href="javascript:void(0)"  onclick="$(&#39;#mcover&#39;).show()" class="result-btn">
+                            邀请小伙伴
+                </button>
+                                <br>
+                <div id="copy">
+        			<p class="text-center">
+            			<a href="http://cnpolitics.org" style="color: #000; font-weight: bold;font-size: 15px;">&copy; 政见CNPolitics</a>
+        			</p>
+    			</div> 
+
+            </div>
+            
+            <div id="panel3" class="panel-body js_result" data-id="6" style="display: none;">
+                <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon3"><img src="box3.png"></span> </a>
+                </div>
+                <h1 class="bold">
+                    很不错了！你答对了6题。</h1>
+                <hr>
+                <dl>
+                    <dt>虽然距离成为政见的主编还差那么一点，但你对传播规律和读者心理的洞察还是让我们非常佩服。快分享到朋友圈炫耀一下吧！</dt>
+                    <dd>
+                        <p>
+                            想知道自己哪道题错了，在政见CNPolitics公号（微信号：cnpolitics2011）中回复“答案”即可。</p>
+                    </dd>
+                </dl>
+                <button onclick="location.href=''" class="result-btn">
+                            再玩一次
+                </button>
+                <button href="javascript:void(0)"  onclick="$(&#39;#mcover&#39;).show()" class="result-btn">
+                            邀请小伙伴
+                </button>
+                <br>
+                <div id="copy">
+        			<p class="text-center">
+            			<a href="http://cnpolitics.org" style="color: #000; font-weight: bold;font-size: 15px;">&copy; 政见CNPolitics</a>
+        			</p>
+    			</div> 
+
+            </div>
+            
+            <div id="panel3" class="panel-body js_result" data-id="5" style="display: none;">
+                <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon3"><img src="box3.png"></span> </a>
+                </div>
+                <h1 class="bold">
+                    只答对了5题，看来还得加把劲啦！</h1>
+                <hr>
+                <dl>
+                    <dt>以后多留意我们文章的阅读数，积累感觉，下次再战吧！</dt>
+                    <dd>
+                        <p>
+                            想知道自己哪道题错了，在政见CNPolitics公号（微信号：cnpolitics2011）中回复“答案”即可。</p>
+                    </dd>
+                </dl>
+                <button onclick="location.href=''" class="result-btn">
+                            再玩一次
+                </button>
+                <button href="javascript:void(0)"  onclick="$(&#39;#mcover&#39;).show()" class="result-btn">
+                            邀请小伙伴
+                </button>
+                <br>
+  			  	<div id="copy">
+        			<p class="text-center">
+            			<a href="http://cnpolitics.org" style="color: #000; font-weight: bold;font-size: 15px;">&copy; 政见CNPolitics</a>
+        			</p>
+    			</div> 
+            </div>
+            
+            <div id="panel3" class="panel-body js_result" data-id="4" style="display: none;">
+                <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon3"><img src="box3.png"></span> </a>
+                </div>
+                <h1 class="bold">
+                    只答对了4题，看来还得加把劲啦！</h1>
+                <p>想知道自己哪道题错了，在政见CNPolitics公号（微信号：cnpolitics2011）中回复“答案”即可。</p>
+                <button onclick="location.href=''" class="result-btn">
+                            再玩一次
+                </button>
+                <button href="javascript:void(0)"  onclick="$(&#39;#mcover&#39;).show()" class="result-btn">
+                            邀请小伙伴
+                </button>
+                <br>
+                                <div id="copy">
+        			<p class="text-center">
+            			<a href="http://cnpolitics.org" style="color: #000; font-weight: bold;font-size: 15px;">&copy; 政见CNPolitics</a>
+        			</p>
+    			</div> 
+            </div>
+            
+            <div id="panel3" class="panel-body js_result" data-id="3" style="display: none;">
+                <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon3"><img src="box3.png"></span> </a>
+                </div>
+                <h2 class="bold">
+                    只答对了3题，看来还得加把劲啦！</h2>
+                <p>
+                想知道自己哪道题错了，在政见CNPolitics公号（微信号：cnpolitics2011）中回复“答案”即可。
+                </p>
+                <button onclick="location.href=''" class="result-btn">
+                            再玩一次
+                </button>
+                <button href="javascript:void(0)"  onclick="$(&#39;#mcover&#39;).show()" class="result-btn">
+                            邀请小伙伴
+                </button>
+                <br>
+                                <div id="copy">
+        			<p class="text-center">
+            			<a href="http://cnpolitics.org" style="color: #000; font-weight: bold;font-size: 15px;">&copy; 政见CNPolitics</a>
+        			</p>
+    			</div> 
+            </div>
+            
+            <div id="panel3" class="panel-body js_result" data-id="2" style="display: none;">
+                <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon3"><img src="box3.png"></span> </a>
+                </div>
+                <h1 class="bold">只答对了2题，看来还得加把劲啦！</h1>
+                <p>想知道自己哪道题错了，在政见CNPolitics公号（微信号：cnpolitics2011）中回复“答案”即可。</p>
+                <button onclick="location.href=''" class="result-btn">
+                            再玩一次
+                </button>
+                <button href="javascript:void(0)"  onclick="$(&#39;#mcover&#39;).show()" class="result-btn">
+                            邀请小伙伴
+                </button>
+                <br>
+                                <div id="copy">
+        			<p class="text-center">
+            			<a href="http://cnpolitics.org" style="color: #000; font-weight: bold;font-size: 15px;">&copy; 政见CNPolitics</a>
+        			</p>
+    			</div> 
+            </div>
+            <div id="panel3" class="panel-body js_result" data-id="1" style="display: none;">
+                <div>
+                        <a href="javascript:void(0)" name="1"><span class="icon3"><img src="box3.png"></span> </a>
+                </div>
+                <h1 class="bold">只答对了1题，看来还得加把劲啦！</h1>
+                <p>想知道自己哪道题错了，在政见CNPolitics公号（微信号：cnpolitics2011）中回复“答案”即可。</p>
+                <button onclick="location.href=''" class="result-btn">
+                            再玩一次
+                </button>
+                <button href="javascript:void(0)"  onclick="$(&#39;#mcover&#39;).show()" class="result-btn">
+                            邀请小伙伴
+                </button>
+                <br>
+                                <div id="copy">
+        			<p class="text-center">
+            			<a href="http://cnpolitics.org" style="color: #000; font-weight: bold;font-size: 15px;">&copy; 政见CNPolitics</a>
+        			</p>
+    			</div> 
+            </div>
+            <div id="panel3" class="panel-body js_result" data-id="0" style="display: none;">
+                <h1 class="bold">
+                    大神，请收下我们的膝盖！</h1>
+                <hr>
+                <dl>
+                    <dt>因为你居然完美避开了所有正确答案！实乃百年不遇之奇才！</dt>
+                    <dd>
+                        <p>
+                            在政见CNPolitics公号（微信号：cnpolitics2011）中回复“答案”即可查看正确答案。</p>
+                    </dd>
+                </dl>
+                <button onclick="location.href=''" class="result-btn">
+                            再玩一次
+                </button>
+                <button href="javascript:void(0)"  onclick="$(&#39;#mcover&#39;).show()" class="result-btn">
+                            邀请小伙伴
+                </button>
+                                <div id="copy">
+                    <br>
+        			<p class="text-center">
+            			<a href="http://cnpolitics.org" style="color: #000; font-weight: bold;font-size: 15px;">&copy; 政见CNPolitics</a>
+        			</p>
+    			</div> 
+            </div>
+
+            <!-- E bd -->
+        </div>
+        <!-- E container -->
+<input type="hidden" name="totalsc" id="totalsc" value="0"  />
+<script type="text/javascript">
+var total = 11;
+var fullScore = 8;
+var tScore = 0;
+var record = 0;
+var e;
+var $se;
+var dataForWeixin={
+    img:    "http://g.3gunman.com/fangyan/20140725ywh1200.jpg",
+    url:    "http://g.3gunman.com/fangyan/",
+    title:  "我在政见编辑考试中得了 ",
+    desc:   "2016政见编辑考试",
+};
+function next(t){
+    $("div#bd > div.panel-body").hide();
+    $("div.js_answer").eq(t).show();
+    $("div.js_answer").eq(t).children("input").attr("checked","");
+    gotoTop();
+}
+function result(t){
+    share_pop("open",10000);
+    $("div#bd > div.panel-body").hide();
+    
+    $("div.js_result").eq(fullScore - t).show();
+	$("div.js_result").eq(fullScore - t).find(".resultscore").eq(0).html($("#totalsc").val());
+	gotoTop();
+}
+
+function push(){
+    $se = $("#collector");
+    e = $se.serialize();
+    // Variable to hold request
+	var request;
+
+	
+
+    // Abort any pending request
+    if (request) {
+        request.abort();
+    }
+    // setup some local variables
+    var $form = $("#collector");
+
+    $('<input />').attr('type', 'hidden')
+          .attr('name', "Mark")
+          .attr('value', tScore)
+          .appendTo($form);
+          
+    // Let's select and cache all the fields
+    var $inputs = $form.find("input, select, button, textarea");
+
+    // Serialize the data in the form
+    var serializedData = $form.serialize();
+
+    // Let's disable the inputs for the duration of the Ajax request.
+    // Note: we disable elements AFTER the form data has been serialized.
+    // Disabled form elements will not be serialized.
+    $inputs.prop("disabled", true);
+
+    // Fire off the request to /form.php
+    request = $.ajax({
+        url: "https://script.google.com/macros/s/AKfycbwhCeqz6emwwAJNuiEkesZE85A1IVEnmjDtrxtA-EXRFlUDl7ls/exec",
+        type: "post",
+        data: serializedData
+    });
+
+    // Callback handler that will be called on success
+    request.done(function (response, textStatus, jqXHR){
+        // Log a message to the console
+        console.log("Hooray, it worked!");
+    });
+
+    // Callback handler that will be called on failure
+    request.fail(function (jqXHR, textStatus, errorThrown){
+        // Log the error to the console
+        console.error(
+            "The following error occurred: "+
+            textStatus, errorThrown
+        );
+    });
+
+    // Callback handler that will be called regardless
+    // if the request failed or succeeded
+    request.always(function () {
+        // Reenable the inputs
+        $inputs.prop("disabled", false);
+    });
+
+    // Prevent default posting of form
+    event.preventDefault();
+}
+
+function toggle(t){
+	var child =  $(t).children("input");
+	if (child.length == 0){
+		push();
+		result(tScore);
+	}else {
+    	$(t).children("input").attr("checked","checked");
+  		$("li.list-group-item").removeClass('active')
+    	var score = $(t).children("input:checked").val();
+    	if (score > 5){
+      		record = record  + score;
+    	}else{
+      		tScore  = parseInt(tScore) + parseInt(score);
+    	}
+    
+		$("#totalsc").val(tScore);
+   		$(t).addClass('active');
+    	var t = $("div.js_answer").index($(t).parents("div.js_answer")) + 1;
+    	if(t == total){
+        	result(tScore);
+    	}else{
+        	setTimeout(function(){next(t);},500);
+    	}
+    }
+}
+function gotoTop(){
+    $("body,html").animate({scrollTop:($("#header").offset().top + $("#header").height())}, 1000);
+}
+</script>
+</div>
+<script type="text/javascript" runat="server">
+$(function() {
+	$("input[name='g']").change(function(){
+		$("li.list-group-item").removeClass('active')
+		$(this).parent("li.list-group-item").addClass('active');
+	});
+	$('nav#menu-left').mmenu({ dragOpen: true });
+	$("nav#menu-right").show();
+	var $menu = $('nav#menu-right');
+	$menu.mmenu({
+		position: 'right',
+		classes: 'mm-light',
+		dragOpen: true
+	});
+	$("div.btn-group > a").click(function() {
+		$("div.btn-group > a").removeClass("current");
+		$(this).addClass("current");
+		$("ul.js-right").hide();
+		$("ul.js-right").eq($("div.btn-group > a").index(this)).show();
+	});
+});
+</script>
+
+<div id="mcover" onclick="document.getElementById('mcover').style.display='';" style="display: none;"><img src="guide.png"></div>
+<script type="text/javascript">
+function report(link, action_type){
+	var parse_link = parseUrl(link);
+	if(parse_link == null){ return; }
+	var query_obj = parseParams( parse_link['query_str'] );
+	query_obj['action_type'] = action_type;
+	query_obj['action_link'] = 'http://game.id87.com/game/fangyan';
+	var report_url = 'report.php?' + jQuery.param( query_obj );
+	$.ajax({ url: report_url, type: 'POST', timeout: 2000})
+}
+function share_scene(link, scene_type){
+	var parse_link = parseUrl(link);
+	if(parse_link == null){	  return link;	}
+	var query_obj = parseParams( parse_link['query_str'] );
+	query_obj['scene'] = scene_type;
+	var share_url = 'http://' + parse_link['domain'] + parse_link['path'] + '?' + jQuery.param( query_obj ) + (parse_link['sharp'] ? parse_link['sharp'] : '');
+	return share_url;
+}
+function recordscore(t){
+	var record_url = 'record.php?t=' + t;
+	$.ajax({ url: record_url, type: 'POST', timeout: 2000})
+}
+$(function(){
+    var onBridgeReady=function(){
+        WeixinJSBridge.on('menu:share:appmessage', function(argv){
+            WeixinJSBridge.invoke('sendAppMessage',{
+                "appid":        '',
+                "img_url":      dataForWeixin.img,
+                "img_width":    "120",
+                "img_height":   "120",
+                "link":             dataForWeixin.url,
+                "desc":             dataForWeixin.desc,
+                "title":            dataForWeixin.title+$("#totalsc").val()+" 分 你能超过我吗？ "+dataForWeixin.desc
+            }, function(res){
+				report(dataForWeixin.url, 1);
+				//recordscore($("#totalsc").val());
+                shareSuccess();
+            });
+        });
+        WeixinJSBridge.on('menu:share:timeline', function(argv){
+			report(dataForWeixin.url, 2);
+			//recordscore($("#totalsc").val());
+            WeixinJSBridge.invoke('shareTimeline',{
+            "img_url":dataForWeixin.img,
+            "img_width":"120",
+            "img_height":"120",
+            "link":dataForWeixin.url,
+            "desc":dataForWeixin.desc,
+            "title":dataForWeixin.title+$("#totalsc").val()+" 分 你能超过我吗？ "+dataForWeixin.desc
+            }, function(res){
+                shareSuccess();
+            });
+        });
+        WeixinJSBridge.on('menu:share:weibo', function(argv){
+            WeixinJSBridge.invoke('shareWeibo',{
+            "content":dataForWeixin.title+$("#totalsc").val()+" 分 你能超过我吗？ "+dataForWeixin.desc+' '+dataForWeixin.url,
+            "url":dataForWeixin.url
+            }, function(res){
+				report(dataForWeixin.url, 3);
+				//recordscore($("#totalsc").val());
+                shareSuccess();
+            });
+        });
+    };
+    if(document.addEventListener){
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            WeixinJSBridge.call('showOptionMenu');
+        });
+        document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+    }else if(document.attachEvent){
+        document.attachEvent('WeixinJSBridgeReady'   , onBridgeReady);
+        document.attachEvent('onWeixinJSBridgeReady' , onBridgeReady);
+    }
+});
+</script>
+
+    <div id="pop_success" class="text-center" style="display: none;">
+        <div class="bd text-center">
+            <p style="line-height: 110px;">
+                分享成功</p>
+        </div>
+        <!-- E bd -->
+    </div>
+    
+    <script>
+        $(function() {
+            $("a#close1").click(function() {
+                share_pop("close", 0);
+            });
+			if(navigator.userAgent.indexOf("MicroMessenger") == -1){
+				$("#weixinfollowlink").attr("href","http://g.3gunman.com");
+				$("#weixinfollowlink1").attr("href","http://g.3gunman.com");
+				$("#weixinfollowlink2").attr("href","http://g.3gunman.com");
+				$("#weixinfollowlink3").attr("href","http://g.3gunman.com");
+			}
+        });
+        function shareSuccess() {
+            share_pop("open", 0);
+            $("div#pop_success").show().delay(1500).fadeOut("slow");
+        }
+        function share_pop(t, time) {
+            if (t == "open") {
+                setTimeout('showShare()', 15000);
+            } else {
+                $('#follow').hide();
+            }
+        }
+        function showShare() {
+            $('#follow').show();
+        }
+    </script>
+
+    <!-- E copy -->
+    <div id="share_tips" class="sr-only">
+        <div class="container text-right">
+            点击右上角，分享给朋友/朋友圈 <i class="glyphicon glyphicon-hand-up element-animation"></i>
+        </div>
+        <!-- E container -->
+    </div>
+
+</body>
+</html>
+
+
+

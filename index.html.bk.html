@@ -1,0 +1,1026 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+		
+    <title>★个人政治倾向测试★</title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="jquery.mmenu.all.css" rel="stylesheet" />
+	<style type="text/css">
+body{background:#111302 url("abcd.jpg") top center no-repeat !important;background-size:100% auto !important}body .avatar .img-circle{background:#347433 !important}body form .btn{background:#347433 !important;border-color:#347433 !important}#header h1,#header p{background:none !important}
+    </style>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery.hammer.min.js"></script>
+    <script type="text/javascript" src="jquery.mmenu.min.all.js"></script>
+    <script src="wxm-core.js"></script> 
+</head>
+<body id="test1" class="test1">
+    <div id="content">
+        <div id="header_bar">
+        </div>
+        <!-- E header_bar -->
+	
+			
+        <div class="container">
+            <div id="header" class="text-center">
+                <div style="height: 65px;"></div>
+				
+				 <div class="container">
+        <div class="text-center header">
+            <h1 class="bold">
+                 ★政见小游戏测试版v1.0★</h1>
+            <p>
+				
+                <span style="padding:4px;background-color: #000;">已有<font color="#FFCC00"><script src="http://news.0579.cn/NewsStatic/Default.aspx?NID=2014072610" charset='utf-8' language="JavaScript" type="text/javascript"></script></font>人参与测试</span>
+            </div>
+            <!-- E header -->
+            <div id="bd" class="panel">
+                <div id="panel1" class="panel-body">
+                    <form action="#">
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            道之将行也与？命也。道之将废也与？命也</dd>
+                    </dl>
+                    <div class="buttons">
+                        <a href="#result" class="btn btn-lg btn-success" style="width: 100%" onclick="return next(0);">
+                            <strong style="color:#fdfd88;">开始测试</strong></a>
+                    </div>
+                    <div class="buttons" style="margin-top: 10px;">
+                        <a href="http://cnpolitics.org" id="weixinfollowlink2" class="btn btn-lg btn-danger" style="width: 100%;
+                            background: #0e6796; border-color: #0e6796;">政见网站</strong></a>                    </div>
+                    </form>
+                </div>
+                 <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;"><img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl><dd>1.以下政治家中你最崇拜的是？</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.毛泽东</li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            B.孙中山</li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            C.华盛顿</li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            D.甘地</li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            2.以下观点你最认同的是</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.社会的公平大于一切 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            B.最重要的是个人的自由</li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            C.平等与自由都很重要 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            D.人民的幸福感最要紧 </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            3.请描述你对这句话的理解：没人能选择自己的出生国，所以为自己的国籍感到骄傲是愚蠢的。</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            A.非常同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            B.同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            C.不确定 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            D.不同意 </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            4.你觉得自己与人群的划分更多是来自？
+                        </dd>
+                    </dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            A.所处的社会阶层 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            B.物质差异 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="2" />
+                            C.知识上的差异 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            D.思想上的差异</li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            5.你对当前的房价怎么看？</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.是由供需关系决定的 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            B.政府控制不当 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            C.政府造成的 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            D.炒房团的错 </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            6.在国际贸易中采取必要的措施保护本国货物是合理的吗？
+                        </dd>
+                    </dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.完全合理 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            B.合理 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            C.视情况而定 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            D.不合理 </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            7.学校应该强迫学生去上学吗？
+                        </dd>
+                    </dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.为了孩子的未来，应该 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            B.应该尽力劝说，与家长达成共识 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            C.可以适当地劝说 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            D.这是学生的自由 </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            8.应该禁止那些有严重可遗传残疾的人生儿育女</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.同意，应该立法禁止 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            B.应该采取半强制措施进行劝阻 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            C.不知道，跟我无关 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            D.不应该，这是个人的自由 </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            9.第一代移民永远无法完全融入他们的新国家。</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="2" />
+                            A.正确，毕竟有文化差异  </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            B.也许吧，会很苦难你 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            C.不知道，跟我无关 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            D.不会，只要想肯定能融入</li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            10.尽管电子时代让官方监视变得更容易，但只有干坏事的人才会为此担心。</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.完全同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            B.部分同意</li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            C.不知道</li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            D.不同意 </li>
+                    </ul>
+                    </form>
+                </div>
+                <!-- E panel-body -->
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            11.商人和生产企业比作家和艺术家更重要。<br />
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            A.完全同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            B.部分同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            C.不知道 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            D.不同意 </li>
+                    </ul>
+                    </form>
+                </div>
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            12.天下真的有那些注定不幸的人</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="2" />
+                            A.有，有的人注定不幸 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="4" />
+                            B.可能有 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            C.不知道 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            D.没有，人的一生是由自己决定的 </li>
+                    </ul>
+                    </form>
+                </div>
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            13.两个成年人在私人卧室做了些什么，不关政府的事。</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            A.完全正确  </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            B.只要他们没有做损害他人利益 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="2" />
+                            C.不知道 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            D.普天之下，莫非王土 </li>
+                    </ul>
+                    </form>
+                </div>
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            14.许多私人财富是由只会投机倒把而对社会毫无贡献的人创造的。
+                        </dd>
+                    </dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            A.完全同意</li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="2" />
+                            B.同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="4" />
+                            C.不知道 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            D.不同意 </li>
+                    </ul>
+                    </form>
+                </div>
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            15.不可相信企业会自发地考虑环境问题。</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="4" />
+                            A.完全同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            B.同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            C.不知道 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            D.不同意 </li>
+                    </ul>
+                    </form>
+                </div>
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            16.好的父母有时不得不打孩子，以让他们明辨事非。</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            A.完全同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="2" />
+                            B.同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            C.不知道 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="4" />
+                            D.不同意 </li>
+                    </ul>
+                    </form>
+                </div>
+                
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            17.觉得更好的社会应该如何达成？<br />     
+
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            A.政府的事，与我无关  </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="4" />
+                            B.做好自己的事 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            C.每个人都应该为社会做些什么 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="4" />
+                            D.不管怎么样，社会总会自己进步的 </li>
+                    </ul>
+                    </form>
+                </div>
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            18.那些可以工作却拒绝工作机会的人，不应得到社会救济。</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            A.完全同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="1" />
+                            B.同意 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            C.不知道 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            D.不同意 </li>
+                    </ul>
+                    </form>
+                </div>
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            19.对宗教的看法是？</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            A.应当提倡，对社会进步有好处 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="0" />
+                            B.只会愚昧民众  </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            C.这是个人的自由 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            D.不知道 </li>
+                    </ul>
+                    </form>
+                </div>
+                <div id="panel2" class="panel-body js_answer" style="display: none;">
+                    <form action="#" method="POST">
+                    <a name="result" href="javascript:void(0)"></a>
+                    <div class="form-group avatar text-center">
+                        <label for="" class="sr-only">
+                            前言</label>
+                        <a href="javascript:void(0)" class="img-circle" name="1"><span style="float: left;
+                            text-align: center; width: 100%; padding-top: 18px;">
+                            <img src="ks.jpg"></span> </a>
+                    </div>
+                    <dl>
+                        <dd>
+                            20.对于警察怎么看？</dd></dl>
+                    <ul class="list-group  js_group">
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="4" />
+                            A.必须要有的，给了我很多安全感</li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="3" />
+                            B.有时候有些凶，让人害怕 </li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="5" />
+                            C.跟我无关，离我的生活很遥远</li>
+                        <li class="list-group-item" onclick="return toggle(this);">
+                            <input name="g" type="radio" class="" value="2" />
+                            D.他们也跟我一样，是社会的一员 </li>
+                    </ul>
+                    </form>
+                </div>
+                
+            <div id="panel3" class="panel-body js_result" data-id="0" style="display: none;">
+                <h1 class="bold text-danger">
+                     极左！你又可以被称左五毛</h1>
+                <hr>
+                <dl>
+                    <dt>详细分析:</dt>
+                    <dd>
+                        <p>
+                            你是社会主义的接班人</p>
+                    </dd>
+                </dl>
+                <div class="buttons">
+                    <a href="javascript:void(0)" class="btn btn-lg btn-success" style="width: 100%" onclick="$(&#39;#mcover&#39;).show()">
+                        邀请小伙伴一起玩</a>
+                </div>
+            </div>
+            <div id="panel3" class="panel-body js_result" data-id="1" style="display: none;">
+                <h1 class="bold text-danger">
+                     中间偏左，你的价值观很贴近领导人</h1>
+                <hr>
+                <dl>
+                    <dt>详细分析:</dt>
+                    <dd>
+                        <p>
+                            你是一个爱这个国家，颇有文人气质的有远见的人（分享到朋友圈可见答案）</p>
+                    </dd>
+                </dl>
+                <div class="buttons">
+                    <a href="javascript:void(0)" class="btn btn-lg btn-success" style="width: 100%" onclick="$(&#39;#mcover&#39;).show()">
+                        邀请小伙伴一起玩</a>
+                </div>
+            </div>
+            <div id="panel3" class="panel-body js_result" data-id="2" style="display: none;">
+                <h1 class="bold text-danger">
+                       不偏不倚，富有经验的社会学家</h1>
+                <hr>
+                <dl>
+                    <dt>详细分析:</dt>
+                    <dd>
+                        <p>
+                         你的政治态度不偏不倚，典型的中间选民，兵家必争说的就是你了</p>
+                    </dd>
+                </dl>
+                <div class="buttons">
+                    <a href="javascript:void(0)" class="btn btn-lg btn-success" style="width: 100%" onclick="$(&#39;#mcover&#39;).show()">
+                        邀请小伙伴一起玩</a>
+                </div>
+            </div>
+            <div id="panel3" class="panel-body js_result" data-id="3" style="display: none;">
+                <h1 class="bold text-danger">
+                     你是：爱好自由的新青年</h1>
+                <hr>
+                <dl>
+                    <dt>详细分析:</dt>
+                    <dd>
+                        <p>
+                            你偏好个人自由，接受过良好的教育，同时也能保持理性地思考，请继续加油！</p>
+                    </dd>
+                </dl>
+                <div class="buttons">
+                    <a href="javascript:void(0)" class="btn btn-lg btn-success" style="width: 100%" onclick="$(&#39;#mcover&#39;).show()">
+                        邀请小伙伴一起玩</a>
+                </div>
+            </div>
+            <div id="panel3" class="panel-body js_result" data-id="4" style="display: none;">
+                <h1 class="bold text-danger">
+                    你是：期待社会进步的先驱</h1>
+                <hr>
+                <dl>
+                    <dt>详细分析:</dt>
+                    <dd>
+                        <p>
+                            你知道很多政治常识，思维偏向西方，所谓师夷长技说的就是你了</p>
+                    </dd>
+                </dl>
+                <div class="buttons">
+                    <a href="javascript:void(0)" class="btn btn-lg btn-success" style="width: 100%" onclick="$(&#39;#mcover&#39;).show()">
+                        邀请小伙伴一起玩</a>
+                </div>
+            </div>
+            <div id="panel3" class="panel-body js_result" data-id="5" style="display: none;">
+                <h1 class="bold text-danger">
+                     极右！完全的自由主义者</h1>
+                <hr>
+                <dl>
+                    <dt>详细分析:</dt>
+                    <dd>
+                        <p>
+                             注定最适合你的国家是美国，快去迎接民主之光吧！</p>
+                    </dd>
+                </dl>
+                <div class="buttons">
+                    <a href="javascript:void(0)" class="btn btn-lg btn-success" style="width: 100%" onclick="$(&#39;#mcover&#39;).show()">
+                        邀请小伙伴一起玩</a>
+                </div>
+            </div>
+            <div id="panel3" class="panel-body js_result" data-id="6" style="display: none;">
+                <h1 class="bold text-danger">
+                    极右！完全的自由主义者</h1>
+                <hr>
+                <dl>
+                    <dt>详细分析:</dt>
+                    <dd>
+                        <p>
+                             注定最适合你的国家是美国，快去迎接民主之光吧！</p>
+                    </dd>
+                </dl>
+                <div class="buttons">
+                    <a href="javascript:void(0)" class="btn btn-lg btn-success" style="width: 100%" onclick="$(&#39;#mcover&#39;).show()">
+                        邀请小伙伴一起玩</a>
+                </div>
+            </div>
+            <!-- E bd -->
+        </div>
+        <!-- E container -->
+<input type="hidden" name="totalsc" id="totalsc" value="0"  />
+<script type="text/javascript">
+var total = 20;
+var scoreArr = new Array(parseInt(total));
+    scoreArr[0] = new Array(2);
+    scoreArr[0]['min'] = 1;
+    scoreArr[0]['max'] = 4;
+    scoreArr[1] = new Array(2);
+    scoreArr[1]['min'] = 5;
+    scoreArr[1]['max'] = 30;
+    scoreArr[2] = new Array(2);
+    scoreArr[2]['min'] = 31;
+    scoreArr[2]['max'] = 65;
+    scoreArr[3] = new Array(2);
+    scoreArr[3]['min'] = 66;
+    scoreArr[3]['max'] = 80;
+    scoreArr[4] = new Array(2);
+    scoreArr[4]['min'] = 81;
+    scoreArr[4]['max'] = 95;
+    scoreArr[5] = new Array(2);
+    scoreArr[5]['min'] = 96;
+    scoreArr[5]['max'] = 100;
+var tScore = 0;
+var dataForWeixin={
+    img:    "http://g.3gunman.com/fangyan/20140725ywh1200.jpg",
+    url:    "http://g.3gunman.com/fangyan/",
+    title:  "我在个人政治考试中得了 ",
+    desc:   "2016政治考试",
+};
+function next(t){
+    $("div#bd > div.panel-body").hide();
+    $("div.js_answer").eq(t).show();
+    $("div.js_answer").eq(t).children("input").attr("checked","");
+    gotoTop();
+}
+function result(t){
+    share_pop("open",10000);
+    $("div#bd > div.panel-body").hide();
+    for(var i = 0; i < parseInt(total);i++){
+        if(parseInt(t) >= parseInt(scoreArr[i]['min']) && parseInt(t) <= parseInt(scoreArr[i]['max'])){
+            $("div.js_result").eq(i).show();
+			$("div.js_result").eq(i).find(".resultscore").eq(0).html($("#totalsc").val());
+			gotoTop();
+		}
+        else
+            continue;
+    }
+}
+function toggle(t){
+    $(t).children("input").attr("checked","checked");
+    $("li.list-group-item").removeClass('active')
+    var score = $(t).children("input:checked").val();
+    tScore  = parseInt(tScore) + parseInt(score);
+	$("#totalsc").val(tScore);
+    $(t).addClass('active');
+    var t = $("div.js_answer").index($(t).parents("div.js_answer")) + 1;
+    if(t == total){
+        result(tScore);
+    }else{
+        setTimeout(function(){next(t);},500);
+    }
+}
+function gotoTop(){
+    $("body,html").animate({scrollTop:($("#header").offset().top + $("#header").height())}, 1000);
+}
+</script>
+</div>
+<script type="text/javascript">
+$(function() {
+	$("input[name='g']").change(function(){
+		$("li.list-group-item").removeClass('active')
+		$(this).parent("li.list-group-item").addClass('active');
+	});
+	$('nav#menu-left').mmenu({ dragOpen: true });
+	$("nav#menu-right").show();
+	var $menu = $('nav#menu-right');
+	$menu.mmenu({
+		position: 'right',
+		classes: 'mm-light',
+		dragOpen: true
+	});
+	$("div.btn-group > a").click(function() {
+		$("div.btn-group > a").removeClass("current");
+		$(this).addClass("current");
+		$("ul.js-right").hide();
+		$("ul.js-right").eq($("div.btn-group > a").index(this)).show();
+	});
+});
+</script>
+
+<div id="mcover" onclick="document.getElementById('mcover').style.display='';" style="display: none;"><img src="guide.png"></div>
+<script type="text/javascript">
+function report(link, action_type){
+	var parse_link = parseUrl(link);
+	if(parse_link == null){ return; }
+	var query_obj = parseParams( parse_link['query_str'] );
+	query_obj['action_type'] = action_type;
+	query_obj['action_link'] = 'http://game.id87.com/game/fangyan';
+	var report_url = 'report.php?' + jQuery.param( query_obj );
+	$.ajax({ url: report_url, type: 'POST', timeout: 2000})
+}
+function share_scene(link, scene_type){
+	var parse_link = parseUrl(link);
+	if(parse_link == null){	  return link;	}
+	var query_obj = parseParams( parse_link['query_str'] );
+	query_obj['scene'] = scene_type;
+	var share_url = 'http://' + parse_link['domain'] + parse_link['path'] + '?' + jQuery.param( query_obj ) + (parse_link['sharp'] ? parse_link['sharp'] : '');
+	return share_url;
+}
+function recordscore(t){
+	var record_url = 'record.php?t=' + t;
+	$.ajax({ url: record_url, type: 'POST', timeout: 2000})
+}
+$(function(){
+    var onBridgeReady=function(){
+        WeixinJSBridge.on('menu:share:appmessage', function(argv){
+            WeixinJSBridge.invoke('sendAppMessage',{
+                "appid":        '',
+                "img_url":      dataForWeixin.img,
+                "img_width":    "120",
+                "img_height":   "120",
+                "link":             dataForWeixin.url,
+                "desc":             dataForWeixin.desc,
+                "title":            dataForWeixin.title+$("#totalsc").val()+" 分 你能超过我吗？ "+dataForWeixin.desc
+            }, function(res){
+				report(dataForWeixin.url, 1);
+				//recordscore($("#totalsc").val());
+                shareSuccess();
+            });
+        });
+        WeixinJSBridge.on('menu:share:timeline', function(argv){
+			report(dataForWeixin.url, 2);
+			//recordscore($("#totalsc").val());
+            WeixinJSBridge.invoke('shareTimeline',{
+            "img_url":dataForWeixin.img,
+            "img_width":"120",
+            "img_height":"120",
+            "link":dataForWeixin.url,
+            "desc":dataForWeixin.desc,
+            "title":dataForWeixin.title+$("#totalsc").val()+" 分 你能超过我吗？ "+dataForWeixin.desc
+            }, function(res){
+                shareSuccess();
+            });
+        });
+        WeixinJSBridge.on('menu:share:weibo', function(argv){
+            WeixinJSBridge.invoke('shareWeibo',{
+            "content":dataForWeixin.title+$("#totalsc").val()+" 分 你能超过我吗？ "+dataForWeixin.desc+' '+dataForWeixin.url,
+            "url":dataForWeixin.url
+            }, function(res){
+				report(dataForWeixin.url, 3);
+				//recordscore($("#totalsc").val());
+                shareSuccess();
+            });
+        });
+    };
+    if(document.addEventListener){
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            WeixinJSBridge.call('showOptionMenu');
+        });
+        document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+    }else if(document.attachEvent){
+        document.attachEvent('WeixinJSBridgeReady'   , onBridgeReady);
+        document.attachEvent('onWeixinJSBridgeReady' , onBridgeReady);
+    }
+})();
+</script>
+
+    <div id="pop_success" class="text-center" style="display: none;">
+        <div class="bd text-center">
+            <p style="line-height: 110px;">
+                分享成功</p>
+        </div>
+        <!-- E bd -->
+    </div>
+    <!-- E pop_success -->
+    <div id="popup-1" class="tip" style="display: none;">
+        <div>
+            <a id="close1" href="javascript:void(0)"><i class="glyphicon glyphicon-remove"></i>
+            </a>
+            <div class="row text-center">
+                <a href="g.3gunman.com" class="btn btn-danger col-sm-12 btn-lg" id="www-3gunman-com">微信关注：这里添你的链接</a>
+            </div>
+            <!-- E discuss -->
+        </div>
+    </div>
+    <!-- E tip -->
+    <div id="follow" class="well" style="display: none;">
+        <a id="close1" href="javascript:void(0)">X</a>
+        <div class="row text-center">
+            <a href="http://g.3gunman.com" class="btn btn-danger col-sm-12 btn-lg" id="www-3gunman-com">微信关注：替换你的链接</a>
+        </div>
+        <!-- E row -->
+    </div>
+
+    <script>
+        $(function() {
+            $("a#close1").click(function() {
+                share_pop("close", 0);
+            });
+			if(navigator.userAgent.indexOf("MicroMessenger") == -1){
+				$("#weixinfollowlink").attr("href","http://g.3gunman.com");
+				$("#weixinfollowlink1").attr("href","http://g.3gunman.com");
+				$("#weixinfollowlink2").attr("href","http://g.3gunman.com");
+				$("#weixinfollowlink3").attr("href","http://g.3gunman.com");
+			}
+        });
+        function shareSuccess() {
+            share_pop("open", 0);
+            $("div#pop_success").show().delay(1500).fadeOut("slow");
+        }
+        function share_pop(t, time) {
+            if (t == "open") {
+                setTimeout('showShare()', 15000);
+            } else {
+                $('#follow').hide();
+            }
+        }
+        function showShare() {
+            $('#follow').show();
+        }
+    </script>
+
+    <div id="copy">
+        <p class="text-center">
+            <a href="http://g.3gunman.com" style="color: #F00; font-weight: bold;font-size: 15px;">&copy; 微资源</a>
+        </p>
+    </div>
+    <!-- E copy -->
+    <div id="share_tips" class="sr-only">
+        <div class="container text-right">
+            点击右上角，分享给朋友/朋友圈 <i class="glyphicon glyphicon-hand-up element-animation"></i>
+        </div>
+        <!-- E container -->
+    </div><script type="text/javascript">
+    /*20:3，创建于2014-7-5*/
+    var cpro_id = "u1611706";
+	<!-- 广告代码 -->
+</script>
+
+<!-- 统计代码 -->
+<div style="display:none">
+</body>
+</html>
+
+
+
